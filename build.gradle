@@ -1,7 +1,1 @@
 apply plugin: 'java'
-sourceset {
-     java.srcDir file('src/inegTest/java')
-     resources.srcDir file('src/integTest/resources')
-     compileClasspath = sourceSets.main.output + configuration.testRuntime
-     runtimeClasspath = output + compileClasspath
-    }
